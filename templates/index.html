@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form enctype='application/json' method="get">
+     <table>
+            <tr>
+                <td width="100px"><label for="name">裂纹模式：</label></td>
+                <td>
+                <input id="crack_type" type="text" list="crack_type_list">
+                <datalist id="crack_type_list">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="a1">a1：</label></td>
+                <td><input type="text" id="a1"></td>
+            </tr>
+            <tr>
+                <td><label for="a2">a2： </label></td>
+                <td><input type="text" maxlength="11" id="a2"></td>
+            </tr>
+            <tr>
+                <td><label for="d">d：</label></td>
+                <td><input type="text" id="d"></td>
+            </tr>
+     </table>
+     <p><input type="button" onclick="register()" value="计算"></p>
+     <table>
+        <tr>
+            <td width="100px"><label for="name">(a1+a2)/d=</label></td>
+            <td>xxxxxx</td>
+        </tr>
+    </table>
+</form>
+</body>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+    function register() {
+        var crack_type = document.getElementById('crack_type').value;
+        var a1 = document.getElementById('a1').value;
+        var a2 = document.getElementById('a2').value;
+        var d = document.getElementById('d').value;
+
+        $.ajax({
+            type: 'GET',
+            url: 'http://127.0.0.1:5000/test',
+            data: JSON.stringify({
+                "crack_type": crack_type,
+                "a1": a1,
+                "a2": a2,
+                "d": d,
+            }),
+            dataType: 'json',
+            success: function(ret) {
+                alert(ret)
+            },
+            error: function(err) {
+
+            }
+        })
+    }
+</script>
+</html>
