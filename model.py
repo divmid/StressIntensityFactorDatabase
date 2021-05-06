@@ -8,54 +8,54 @@ db = SQLAlchemy(app)
 
 
 class Sifator1(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
 
 class Sifator2(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
+
 class Sifator3(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
 
 class Sifator4(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
 
 class Sifator5(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
 
 class Sifator6(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
 
 class Sifator7(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
+
 
 class Sifator8(db.Model):
-
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
 
-class Sifator9(db.Model):
 
+class Sifator9(db.Model):
     id = db.Column(db.Integer, autoincrement=True, primary_key=True, nullable=False)
     q = db.Column(db.FLOAT())
     F = db.Column(db.FLOAT())
@@ -83,9 +83,9 @@ if __name__ == '__main__':
     table6 = [(0.00, 1.000), (0.05, 1.001), (0.10, 1.002), (0.15, 1.009), (0.20, 1.014), (0.25, 1.027), (0.30, 1.037),
               (0.35, 1.067), (0.40, 1.086), (0.45, 1.113), (0.50, 1.138), (0.55, 1.181), (0.60, 1.221), (0.65, 1.289),
               (0.70, 1.355), (0.75, 1.449), (0.80, 1.568), (0.85, 1.783), (0.90, 2.012)]
-    table7 = [(0.00, 1.000), (0.05, 1.001), (0.10, 1.001), (0.15, 1.009), (0.20, 1.014), (0.25, 1.027), (0.30, 1.037),
-              (0.35, 1.067), (0.40, 1.086), (0.45, 1.113), (0.50, 1.138), (0.55, 1.181), (0.60, 1.221), (0.65, 1.289),
-              (0.70, 1.355), (0.75, 1.449), (0.80, 1.568), (0.90, 2.012)]
+    table7 = [(0.00, 1.001), (0.05, 1.004), (0.10, 1.006), (0.15, 1.011), (0.20, 1.017), (0.25, 1.022), (0.30, 1.030),
+              (0.35, 1.047), (0.40, 1.061), (0.45, 1.085), (0.50, 1.110), (0.55, 1.148), (0.60, 1.180), (0.65, 1.240),
+              (0.70, 1.292), (0.75, 1.392), (0.80, 1.485), (0.85, 1.637), (0.90, 1.856)]
     table8 = [(0.00, 1.000), (0.05, 1.001), (0.10, 1.004), (0.15, 1.006), (0.20, 1.007), (0.25, 1.014), (0.30, 1.022),
               (0.35, 1.032), (0.40, 1.045), (0.45, 1.060), (0.50, 1.075), (0.55, 1.101), (0.60, 1.124), (0.65, 1.157),
               (0.70, 1.193), (0.75, 1.247), (0.80, 1.315), (0.85, 1.422), (0.90, 1.564)]

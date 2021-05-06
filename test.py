@@ -1,28 +1,4 @@
-# import requests
-# 
-# r = requests.get('http://localhost:5001/sitf?k=0.82', verify=False)
-# print(r.json())
+import requests
 
-sql_dict = {
-    0: 1.000,
-    0.05: 1.012,
-    0.10: 1.023,
-    0.15: 1.030,
-    0.20: 1.033,
-    0.25: 1.042,
-    0.30: 1.051,
-    0.35: 1.072,
-    0.40: 1.088,
-    0.45: 1.128,
-    0.50: 1.152,
-    0.55: 1.212,
-    0.60: 1.243,
-    0.65: 1.332,
-    0.70: 1.384,
-    0.75: 1.486,
-    0.80: 1.638,
-    0.85: 1.867,
-    0.90: 2.178,
-    0.95: 2.278,
-}
-print(sql_dict.items())
+r = requests.get('http://localhost:5001/sitf?k=0.82', verify=False)
+print(r.json())

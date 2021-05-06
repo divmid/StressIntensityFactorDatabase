@@ -34,8 +34,16 @@
      <p><input type="button" onclick="register()" value="计算"></p>
      <table>
         <tr>
-            <td width="100px"><label for="name">(a1+a2)/d=</label></td>
-            <td>xxxxxx</td>
+            <td width="100px"><label for="name">q=(a1+a2)/d=</label></td>
+            <td id="q">xxxxxx</td>
+        </tr>
+        <tr>
+            <td><label for="name">F=</label></td>
+            <td id="F">xxxxxx</td>
+        </tr>
+        <tr>
+            <td><label for="name">k=</label></td>
+            <td id="k">xxxxxx</td>
         </tr>
     </table>
 </form>
@@ -50,15 +58,16 @@
 
         $.ajax({
             type: 'GET',
-            url: 'http://127.0.0.1:5000/test',
-            data: JSON.stringify({
+            url: 'http://127.0.0.1:5000/sitf',
+            data: {
                 "crack_type": crack_type,
                 "a1": a1,
                 "a2": a2,
                 "d": d,
-            }),
+            },
             dataType: 'json',
             success: function(ret) {
+                console.log(ret);
                 alert(ret)
             },
             error: function(err) {
