@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62c2979-89d3-45ef-b6d8-74e535a40e36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/READ.md" beforeDir="false" afterPath="$PROJECT_DIR$/READ.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+            <state relative-caret-position="189">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -58,17 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="1380" column="72" lean-forward="true" selection-start-line="1380" selection-start-column="72" selection-end-line="1380" selection-end-column="72" />
+            <state relative-caret-position="35667">
+              <caret line="1380" column="72" selection-start-line="1380" selection-start-column="72" selection-end-line="1380" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+            <state relative-caret-position="2079">
+              <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -76,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="162">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -88,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/READ.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+            <state relative-caret-position="108">
+              <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sifator.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
+            <state relative-caret-position="3456">
               <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
             </state>
           </provider>
@@ -106,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../task_done.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="6156">
               <caret line="247" column="41" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="41" />
               <folding>
                 <element signature="e#47#57#0" expanded="true" />
@@ -118,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="27">
+              <caret line="1" column="89" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -127,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../word_bak.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="233" column="26" lean-forward="true" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
+            <state relative-caret-position="5805">
+              <caret line="233" column="26" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
               <folding>
                 <element signature="n#w:p#6;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
                 <element signature="n#w:pPr#0;n#w:p#6;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
@@ -189,14 +191,14 @@
         <option value="$PROJECT_DIR$/templates/teset.html" />
         <option value="$PROJECT_DIR$/templates/index.tml.html" />
         <option value="$PROJECT_DIR$/model.py" />
-        <option value="$PROJECT_DIR$/READ.md" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/../word.xml" />
         <option value="$PROJECT_DIR$/../task_done.py" />
         <option value="$PROJECT_DIR$/../墨云自动研判报告修订版本v2.xml" />
         <option value="$PROJECT_DIR$/../word_bak.xml" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/READ.md" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -212,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +226,11 @@
               <item name="StressIntensityFactorDatabase" type="b2602c69:ProjectViewProjectNode" />
               <item name="StressIntensityFactorDatabase" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StressIntensityFactorDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StressIntensityFactorDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="app.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="StressIntensityFactorDatabase" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +297,12 @@
               <item name="flask" type="462c0819:PsiDirectoryNode" />
               <item name="app.py" type="8704e2dd:PyFileNode" />
               <item name="Flask" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="StressIntensityFactorDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StressIntensityFactorDatabase" type="b2602c69:ProjectViewProjectNode" />
@@ -324,7 +338,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.StressIntensityFactorDatabase">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StressIntensityFactorDatabase" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -490,12 +503,13 @@
       <workItem from="1618447338524" duration="857000" />
       <workItem from="1618453381500" duration="5089000" />
       <workItem from="1618474466481" duration="847000" />
-      <workItem from="1619592540471" duration="35616000" />
+      <workItem from="1619592540471" duration="36094000" />
+      <workItem from="1620356396730" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46841000" />
+    <option name="totallyTimeSpent" value="47592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +524,7 @@
     <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16755603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16915688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -545,12 +559,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app.py</url>
-          <line>65</line>
+          <line>56</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app.py</url>
-          <line>55</line>
+          <line>46</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -719,9 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/teset.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teset.html" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -745,69 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/READ.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1380" column="72" lean-forward="true" selection-start-line="1380" selection-start-column="72" selection-end-line="1380" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../word.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="533" column="31" lean-forward="true" selection-start-line="533" selection-start-column="31" selection-end-line="533" selection-end-column="31" />
-          <folding>
-            <element signature="n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tblPr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tblCellMar#0;n#w:tblPr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tblGrid#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tblPrEx#0;n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tblCellMar#0;n#w:tblPrEx#0;n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tc#0;n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tc#1;n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#0;n#w:tc#1;n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#1;n#w:tc#1;n#w:tr#0;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:tr#1;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#8;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:pPr#0;n#w:p#8;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:r#0;n#w:p#8;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#10;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#11;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#12;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:p#13;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-            <element signature="n#w:sectPr#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../task_done.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="247" column="41" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="41" />
-          <folding>
-            <element signature="e#47#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../word.xml" />
     <entry file="file://$PROJECT_DIR$/../墨云自动研判报告修订版本v2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -827,10 +777,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35667">
+          <caret line="1380" column="72" selection-start-line="1380" selection-start-column="72" selection-end-line="1380" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sifator.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task_done.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6156">
+          <caret line="247" column="41" selection-start-line="247" selection-start-column="41" selection-end-line="247" selection-end-column="41" />
+          <folding>
+            <element signature="e#47#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../word_bak.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="233" column="26" lean-forward="true" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
+        <state relative-caret-position="5805">
+          <caret line="233" column="26" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
           <folding>
             <element signature="n#w:p#6;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
             <element signature="n#w:pPr#0;n#w:p#6;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#2;n#pkg:package#0;n#!!top" />
@@ -847,34 +838,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/READ.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="108">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sifator.sql">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+        <state relative-caret-position="27">
+          <caret line="1" column="89" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        <state relative-caret-position="189">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="77" column="33" lean-forward="true" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
         </state>
       </provider>
     </entry>

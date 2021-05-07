@@ -18,14 +18,22 @@ python app.py
 5.启动代码的解释
 ```
 # port是可修改的端口，启动之后是本机ip
-app.run(host="0.0.0.0", port="5001")
-访问的url: http://localhost:5001/sitf?k=0.82
-只需要改变k的值就可以得到F的值, k的取值范围是[0,0.95]
+app.run(host="0.0.0.0", port="5000")
+访问的url: http://localhost:5000/sitf?crack_type=3&a1=11&a2=1&d=18
+crack_type 裂纹模式 1,2,3
+a1 参数
+a2 参数
+d 参数
 访问错误会返回code=400，正确是code=200
 {
-  "F": 1.867,
-  "code": 200
+  "F": 1.292,
+  "a": 11.0,
+  "code": 200,
+  "k": 22.31284,
+  "msg": "获取成功",
+  "q": 0.6666666666666666
 }
+
 {
   "code": 400,
   "msg": "参数异常"
@@ -35,7 +43,7 @@ app.run(host="0.0.0.0", port="5001")
 6.python调用接口
 ```
 pip install requests
-r = requests.get('http://localhost:5001/sitf?k=0.82')
+r = requests.get('http://localhost:5000/sitf?crack_type=3&a1=11&a2=1&d=18')
 r.json()
 ```
 

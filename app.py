@@ -43,15 +43,6 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/test', methods=["GET", "POST"])
-def test():
-    print("aaaaaaa", request.args)
-    print("aaaaaaa", request.args.get("crack_type"))
-    print(request.data)
-    print(request.form)
-    return render_template('index.html')
-
-
 @app.route('/sitf')
 def getsiftable():
     """
