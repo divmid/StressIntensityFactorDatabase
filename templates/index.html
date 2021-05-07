@@ -34,8 +34,12 @@
      <p><input type="button" onclick="register()" value="计算"></p>
      <table>
         <tr>
-            <td width="100px"><label for="name">q=(a1+a2)/d=</label></td>
+            <td><label for="name">q=(a1+a2)/d=</label></td>
             <td id="q">xxxxxx</td>
+        </tr>
+        <tr>
+            <td><label for="name">a=a1/a2=</label></td>
+            <td id="a">xxxxxx</td>
         </tr>
         <tr>
             <td><label for="name">F=</label></td>
@@ -55,6 +59,10 @@
         var a1 = document.getElementById('a1').value;
         var a2 = document.getElementById('a2').value;
         var d = document.getElementById('d').value;
+        var q = document.getElementById('q');
+        var a = document.getElementById('a');
+        var F = document.getElementById('F');
+        var k = document.getElementById('k');
 
         $.ajax({
             type: 'GET',
@@ -68,7 +76,11 @@
             dataType: 'json',
             success: function(ret) {
                 console.log(ret);
-                alert(ret)
+                q.innerHTML = ret.q;
+                a.innerHTML = ret.a;
+                F.innerHTML = ret.F;
+                k.innerHTML = ret.k;
+                alert(ret.msg)
             },
             error: function(err) {
 

@@ -62,7 +62,7 @@ def getsiftable():
     a1[0,20],a2[0,40],d(0.0-100.0]
     :return:
     """
-    message = {"code": 400}
+    message = {"code": 400, }
     try:
         crack_type = float(request.args.get('crack_type'))
         a1 = int(request.args.get('a1'))
@@ -79,7 +79,7 @@ def getsiftable():
             return jsonify(message)
         q = (a1 + a2) / d
         if not (0 <= q <= 0.9):
-            message["msg"] = "参数异常: 0< d <=100"
+            message["msg"] = "参数异常: 0<= q=(a1+a2)/d <=0.9"
             return jsonify(message)
         left_index = bisect.bisect_left(sql_index_list, q)
         right_index = bisect.bisect_right(sql_index_list, q)
@@ -133,6 +133,7 @@ def getsiftable():
         message["F"] = sitf.F
         message["k"] = sitf.F * ((3.14 * a1) * 0.5)
         message['code'] = 200
+        message["msg"] = "获取成功"
     except Exception as e:
         print(traceback.print_exc())
         message["msg"] = "参数异常"
